@@ -1,0 +1,19 @@
+for integer array{
+inside main: max array size 10^6
+global array: max size is 10^7 
+
+and if you exceed this, then you will get segmentation fault.
+
+if you declare an array globally, then everything is initialized to zero by default.
+}
+
+collision in hashing: whatever hashing you are using but if all the keys end up on the same hash index then it is called collision(worst case->O(N)).
+
+in a map: any data structure can be a key.
+in unordered_map: only have individual data type as a key(ex: pair, vector are not allowed)
+
+time Complexity{
+	unordered_map: avg and best-> O(1) , worst-> O(N).
+}
+
+->if you are accessing an index which is not present while looping, then it will throw runtime error.
