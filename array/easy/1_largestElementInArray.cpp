@@ -1,6 +1,9 @@
 // brute force: using sorting and returning last element
+// Time->O(n*log(n))
+
 
 // optimal: using max_variable and iterating through the loop
+// Time->O(n)
 
 #include <bits/stdc++.h>
 using namespace std;

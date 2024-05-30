@@ -1,14 +1,15 @@
 // Brute Force: using temp array
 /*
 Step 1: Copy the last k elements into the temp array.
-
 Step 2: Shift n-k elements from the beginning by k position to the right
-
 Step 3: Copy the elements into the main array from the temp array.
+
+Time->O(n)    space->O(k)
+
 */
 
 // Optimal: reverse last K-elements, reverse first N-K elements, then reverse whole array.
-
+// Time->O(n)     space->O(1)
 
 #include <iostream>
 using namespace std;

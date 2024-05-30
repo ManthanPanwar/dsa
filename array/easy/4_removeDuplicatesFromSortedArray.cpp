@@ -1,6 +1,8 @@
 // Brute force: use a dataStructure which stores only unique elements(SET), put in set data structure and then put back in array
+// Time-> O(n*log(n))   and   space->O(n)
 
 // Optimal: using two pointers ‘i’ and ‘j’, we move ‘j’ till we don't get a number arr[j] which is different from arr[i]. As we got a unique number we will increase the i pointer and update its value by arr[j]. 
+// Time->O(n)
 
 #include<bits/stdc++.h>
 using namespace std;

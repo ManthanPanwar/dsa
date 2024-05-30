@@ -1,6 +1,8 @@
 // Brute force: use temporary array to store non-zero elements and then put zero in remaining places.
+// Time->O(n)     space->O(n)
 
 // Optimal: using 2 pointers i.e. i and j. The pointer j will point to the first 0 in the array and i will point to the next index.
+// Time->O(n)     space->O(1)
 
 
 #include <bits/stdc++.h>

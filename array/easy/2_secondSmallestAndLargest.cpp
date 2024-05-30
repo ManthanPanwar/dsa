@@ -3,16 +3,19 @@
 step1: Sort the array in ascending order
 step2: The element present at the second index is the second smallest element
 step3: The element present at the second index from the end is the second largest element
+Time->O(n*log(n))
 */
 
-// Better Approach: using 2 loops
+// Better Approach: using 2 loops independently
 /*
 step1: Find the smallest and largest element in the array in a single traversal
 step2: After this, we once again traverse the array and find an element that is just greater than the smallest element we just found.
 step2: Similarly, we would find the largest element which is just smaller than the largest element we just found
+Time->O(n)
 */
 
 // Optimal Approach: using 1 loop (4 variables)
+// Time->O(n)
 
 #include<bits/stdc++.h>
 using namespace std;

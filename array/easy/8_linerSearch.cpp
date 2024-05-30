@@ -1,4 +1,5 @@
 // Optimal: We will traverse the whole array and see if the element is present in the array or not
+// Time->O(n)
 
 #include<stdio.h>
 
