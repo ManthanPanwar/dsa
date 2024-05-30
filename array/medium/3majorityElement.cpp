@@ -1,6 +1,12 @@
+// Brute force: using 2 loops, innerloop will count the occurences for each ith element.
+// Time->O(n^2)
 
+// Better Approach: using map data structure or unordered_map data structure for storing occurences
+// Time->O(n*log(n)) in map						O(n) in best and average case unordered_map
 
-
+// Optimal: MOORE'S VOTING ALGORITHM
+// keeping the count variable and incrementing count if maj == arr[i] otherwise decrementing and if count == 0 then update maj = arr[i].
+// Time-> O(N) + O(N)
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,8 +1,8 @@
 // Brute force: generate all the subArrays and then use inner loop to calculate sum and then store maximum length in max_length variable
-// Time->O(N*3)
+// Time->O(N^3)
 
 // Better than Brute force: using two loops and using the inner loop to generate sum and finding max_length.
-// Time->O(N*2)
+// Time->O(N^2)
 
 // Better Approach: using Hashing and store prefixSum
 /*

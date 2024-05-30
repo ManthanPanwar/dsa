@@ -1,6 +1,23 @@
+// Brute force: sort the array
+// Time->O(n*log(n))
+
+// Better: use 3 variables to store count of each element and then put the elements back in the array according to the count value.
+// Time-> O(N) + O(N)
+
+// Optimal: DUTCH NATIONAL FLAG ALGORITHM
+/*
+This algorithm contains 3 pointers i.e. low, mid, and high, and 3 main rules.  The rules are the following:
+{
+	arr[0….low-1] contains 0. [Extreme left part]
+	arr[low….mid-1] contains 1.
+	arr[high+1….n-1] contains 2. [Extreme right part], n = size of the array
+	The middle part i.e. arr[mid….high] is the unsorted segment.
+}
+*/
+// We are assuming that entire array is unsorted that is why we are keeping low and mid on the same position.
+
 #include <bits/stdc++.h>
 using namespace std;
-
 
 void sortColor(vector<int>& arr)
 {

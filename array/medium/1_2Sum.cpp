@@ -1,5 +1,5 @@
-//Variety-1: optimal is the best solution
-//Variety-2: Better is the most optimal
+//Variety-1: optimal is the best solution (return yes or no)
+//Variety-2: Better is the most optimal (return indices of both elements)
 
 
 // Brute force: take one element and check with the elements which are after it; Time->O(N^2).
