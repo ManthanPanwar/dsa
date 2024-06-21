@@ -17,3 +17,9 @@ time Complexity{
 }
 
 ->if you are accessing an index which is not present while looping, then it will throw runtime error.
+
+{
+	d * pow(2,count+1) === d<<count+1
+
+	pow(2,count) === 1<<count
+}
